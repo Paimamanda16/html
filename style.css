@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins:ital,wght@1,300 & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    overflow: hidden;
+
+}
+.background{
+    background-image: url(hd-wallpaper-3833039_1280.jpg);
+    background size: cover;
+    background-position:center;
+    width:100%;
+    height:100vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300px;
+    cursor: pointer;
+
+}
+.cabeçalho-link a{
+    color: rgb(249, 252, 251);
+   font-size: 20px;
+   font-family: 'PT Serif', serif;
+
+}
+.cabeçalho-link a:hover {
+    color: rgb(10, 10, 10);
+    transition: 0.3s all;
+}
+.logo i {
+height: 40px;
+width:40px;
+background: transparent;
+border: 2px solid #2ecc71;
+color: #2ecc71;
+border-radius: 50%;
+display: inline-block;
+align-items: center;
+justify-content: center;
+font-size: 15px;
+cursor: pointer;
+
+}
+button{
+     color: #2ecc71;
+     background: transparent;
+     border: solid 1px #2ecc71;
+     padding: 5px;
+     border-radius:15px;
+     font-size: 12px;
+     width: 150px;
+     cursor: pointer;
+}
+button:hover {
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+
+}
+.container-text{
+    padding: 150px 0 0 130px;
+}
+.text h3{
+    color: #fff;
+    font-size: 20px;
+  
+
+}
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+.text span {
+    color: #2ecc71;
+    
+}
+.text p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}   
+ .redes-sociais{
+        color: #2ecc71;
+        padding: 10px;
+        margin-top: 10px;
+   
+
+}
+.btn{
+    margin-top: 10px;
+}
